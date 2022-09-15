@@ -20,7 +20,7 @@ function function1() {
   emtpy.addEventListener("click", function (event) {
     event.preventDefault();
     document
-      .querySelectorAll("#menu-table td")
+      .querySelectorAll("#theB td")
       .forEach((item) => item.remove());
   });
 
