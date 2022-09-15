@@ -1,0 +1,47 @@
+body {
+  font-family: Garamond;
+}
+
+.header {
+  font-style: italic;
+}
+
+th {
+  background-color: rgb(163, 245, 125);
+  padding: 4px 0 4px 0;
+}
+
+.menu-layout {
+  text-align: center;
+  margin: auto;
+  max-width: 740px;
+}
+
+#menu-table {
+  background-color: #f2f2f2;
+  text-align: left;
+  width: 100%;
+}
+
+#menu-table tr:nth-of-type(2n) {
+  background-color: gainsboro;
+}
+
+tr,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#display-image {
+  width: 600px;
+  height: 200px;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+}
+#imgtest {
+  width: 64px;
+  height: 64px;
+}
